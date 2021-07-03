@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(209, 226, 226, 0.322);
+}
+
+#allblogs{
+    display: flex;
+    flex-direction: column;
+}
+/* designing a nav bar  */
+
+#navbar{
+    /* display: flex; */
+    width: 100%;
+    height: 5vh;
+    background-color: rgb(65, 59, 71);
+    padding-top: 4px;
+
+}
+
+#top{
+    display: flex;
+    justify-content: space-evenly;
+   
+    align-items: center;
+
+}
+
+.content{
+    list-style: none;
+    
+    color: rgb(10, 134, 93);
+    font-size: 140%;
+}
+
+/* designing blog container */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+#blogcontainer{
+    margin-top: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: rgba(209, 226, 226, 0.322);
+    justify-content: center;
+    /* position: absolute; */
+}
+
+#blogCard{
+    width: 80%;
+    height: 330px;
+    font-family: 'Shadows Into Light', cursive;
+    font-size:19px;
+    font-weight: bold;
+    border: 2px solid black;
+    color: rgb(91, 100, 97);
+    overflow-y: auto;
+    
+    border-radius: 10px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    
+}
+
+#blogcontent{
+    margin-top: 1%;
+    text-align: justify;
+    padding-left: 1.7%;
+    padding-right: 1.7%;
+    /* z-index: -1; */
+    width: 100%;
+    height: 83%;
+    overflow: auto;
+}
+
+/* style for mode (day and night) */
+.light{
+    color: beige;
+    color: rgb(22, 21, 21);
+    
+}
+
+.day{
+color: antiquewhite;
+}
+
+.night{
+color: rgb(173 ,212 ,199);
+}
+
+#mode{
+    cursor: pointer;
+
+}
+
+hr{
+    margin: 2px -2px -2px 2px;
+    margin-bottom: 2px;
+}
+
+/* like share comment */
+#likeshare{
+width: 100%;
+    background-color: rgba(209, 226, 226, 0.959);
+    /* position: absolute; */
+    top: 85%;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    /* z-index: 1; */
+}
+::-webkit-scrollbar {
+    display:none
+}
+#comment{
+    margin-top: 2px;
+    width: 76%;
+    height: 20px;
+}
+
+form{
+    display: inline;
+}
+#paperplane{
+    background-color: rgba(209, 226, 226, 0.959);
+        color: rgb(114, 113, 111);
+    
+}
+#commentform{
+    /* display: inline; */
+    /* display: flex; */
+    /* position: relative; */
+    top: 0px;
+}
+#commentform div{
+    /* position: absolute; */
+    display: flex;
+    /* position: relative; */
+    
+    /* top: 20px; */
+    /* bottom: -10px; */
+    /* bottom: 20px; */
+    align-items:center;
+    justify-content: space-evenly;
+    /* display: inline; */
+}
+
+#addcomment{
+    outline: none;
+    border: none;
+    margin-top:3px ;
+    display: block;
+    
+}
+
+.commentclass{
+    /* padding: 2px 2px; */
+    border-bottom: 2px solid rgb(126, 123, 118);
+}
+
+#addcommentcenter{
+    display: flex;
+    justify-content: center;
+    /* padding: 3px; */
+    
+
+}
+#likeshare::-webkit-scrollbar {
+    display: none;
+  }
+
+
+#hidecomment{
+/* padding-left: 1%; */
+}
